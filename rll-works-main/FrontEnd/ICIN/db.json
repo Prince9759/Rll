@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "registerUsers": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "fullname": "abc",
+      "gender": "Male",
+      "mobile": "0123456789",
+      "address": "India",
+      "city": "Chennai",
+      "dob": "2000-02-28",
+      "id": 2
+    },
+    {
+      "emailid": "test1@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "name": "test1",
+      "gender": "male",
+      "Mno": "0978563412",
+      "address": "india",
+      "city": "erode",
+      "dob": "2000-02-28",
+      "id": 3
+    },
+    {
+      "emailid": "test9@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "name": "test9",
+      "gender": "jbnk",
+      "Mno": 896745432,
+      "address": "jkb",
+      "city": "jk",
+      "dob": "1111-01-01",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

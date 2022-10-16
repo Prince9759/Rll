@@ -1,0 +1,15 @@
+<form (ngSubmit)="updateDataFromDb()">
+    <label>Acoount ID</label>
+
+    <input type="number" name="aid" [(ngModel)]="aid"/><br>
+    <label>Withdraw Amount</label>
+
+    <input type="number" name="withdrawedamount" [(ngModel)]="withdrawedamount"/><br>
+
+    <input type="submit" value="update data">
+    <input type="reset" value="reset">
+</form>
+<span *ngFor="let u of accounts">
+    <span>{{u.uname}}</span>
+</span>
+

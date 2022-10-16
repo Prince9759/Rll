@@ -1,0 +1,102 @@
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<div class="container">
+  <div class="row">
+      <div class="col-sm">
+          <div class="account-container">
+              
+                      <div class="top-section">
+                          <div class="balance float-right">
+                          </div>
+                          <div class="account type">
+                              Primary Account
+                          </div>
+                      </div>
+                      <hr class="solid">
+                      <div class="bottom-section" id="viewPrimaryAccountDetails">
+                          <div class="details float-right">
+                              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                          </div>
+                          <div>
+                            <button (click)="Primary()"> Primary View Details</button>
+
+                          </div>
+                      </div>
+                     
+              
+            </div>
+              <br>
+              <div class="account-container">
+              
+                  <div class="top-section">
+                      <div class="balance float-right">
+                      </div>
+                      <div class="account type">
+                          Saving Account
+                      </div>
+                  </div>
+                  <hr class="solid">
+                  <div class="bottom-section" id="viewSavingAccountDetails"  >
+                      <div class="details float-right">
+                          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                      </div>
+                      <div>
+                        <button (click)="saving()"> saving View Details</button>
+                      </div>
+                  </div>
+                 
+          
+        </div>
+      </div>
+      <br>
+      <div class="col-sm">
+          <div class="row">
+              <div class="col-sm">
+                <div class="transaction">
+                      <div class="top-section">
+                          <span class="float-right">Deposit</span>
+                          <i class="fa fa-credit-card" aria-hidden="true"></i>
+
+                      </div>
+                      <hr>
+                      <div class="bottom-section"  id="depositFundSection">
+                          <div class="details float-right">
+                              <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+                          </div>
+                          <div>
+                              <button (click)="deposit()">Go to Deposit</button>
+                          </div>
+                      </div>
+              </div>
+              </div>
+              <div class="col-sm">
+                  <div class="row">
+                      <div class="col-sm">
+                        <div class="transaction">
+                              <div class="top-section">
+                                  <span class="float-right">Withdrawal</span>
+                                  <i class="fa fa-money" aria-hidden="true"></i>
+
+      
+                              </div>
+                              <hr>
+                              <div class="bottom-section"id="withdrawFudSection" >
+                                  <div class="details float-right">
+                                      <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+                                  </div>
+                                  <div>
+                                    <button (click)="withdraw()">Go to Withdraw</button>
+                                </div>
+                              </div>
+                      </div>
+                      </div>
+              </div>
+      </div>
+           
+            
+                          
+      </div>
+  </div>
+</div>
+<button (click)="check()">Apply for Check</button>

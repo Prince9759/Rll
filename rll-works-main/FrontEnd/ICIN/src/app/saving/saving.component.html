@@ -1,0 +1,18 @@
+
+
+
+<form (ngSubmit)="findUserByID(aid)">
+    <label>Acoount ID</label>
+
+    <input type="text" name="aid" [(ngModel)]="aid" placeholder="enter the Account Id"/><br>
+
+    <input type="submit" value="checkData"> 
+    <input type="reset" value="reset">
+</form>
+<!-- <span *ngFor="let u of accounts">
+    <span>{{u.uemailid}},{{u.uname}},{{u.atype}}</span>
+</span> -->
+<div id="h"><h5>{{detail}}</h5></div>
+
+
+
